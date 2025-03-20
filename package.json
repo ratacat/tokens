@@ -1,7 +1,7 @@
 {
-  "name": "fill-in-the-blank",
+  "name": "tokens",
   "version": "0.0.5",
-  "description": "Word generator",
+  "description": "Token generator",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agorischek/fill-in-the-blank"
+    "url": "https://github.com/ratacat/tokens"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
