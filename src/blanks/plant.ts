@@ -1,4 +1,4 @@
-import { plants } from '../content/plants.js';
+import { Plants } from '../content/plants.js';
 import { blank } from '../shared/blank.js';
 
 /** A plant, such as "lavender"
@@ -8,4 +8,4 @@ import { blank } from '../shared/blank.js';
  * // "Where does lavender grow?"
  * ```
  */
-export const plant = blank(...plants);
+export const plant = blank(...Plants);

@@ -1,26 +1,36 @@
 import {
-  animal,
   appliance,
+  computerActivity,
   emotion,
+  everydayObject,
   exercise,
-  musicGenre,
+  humanStruggle,
+  landscape,
+  literaryForm,
+  mammal,
   plant,
   profession,
   shape,
   vehicle,
+  weatherPattern,
 } from '../index.js';
 import { wrap } from '../shared/wrap.js';
 
 const kinds = [
   exercise,
-  animal,
+  mammal,
   emotion,
   plant,
   vehicle,
   appliance,
   shape,
-  musicGenre,
+  literaryForm,
   profession,
+  landscape,
+  humanStruggle,
+  everydayObject,
+  computerActivity,
+  weatherPattern,
 ];
 
 /** Provides random inspiration for a model to consider when generating a response

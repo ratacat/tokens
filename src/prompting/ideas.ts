@@ -1,14 +1,19 @@
 import {
-  animal,
   appliance,
   color,
+  computerActivity,
   emotion,
+  everydayObject,
   exercise,
-  musicGenre,
+  humanStruggle,
+  landscape,
+  literaryForm,
+  mammal,
   plant,
   profession,
   shape,
   vehicle,
+  weatherPattern,
 } from '../index.js';
 import { wrap } from '../shared/wrap.js';
 
@@ -26,5 +31,5 @@ import { wrap } from '../shared/wrap.js';
  */
 export const ideas = wrap(
   () =>
-    `${exercise}, ${animal}, the color ${color}, being ${emotion}, ${plant}, ${vehicle}, ${appliance}, ${shape}, ${musicGenre} music, and ${profession}.`,
+    `${exercise}, ${mammal}, the color ${color}, feeling ${emotion}, ${plant}, ${vehicle}, ${appliance}, ${shape}, a ${literaryForm}, ${profession}, a ${landscape}, overcoming ${humanStruggle}, ${everydayObject}, ${computerActivity}, and ${weatherPattern}.`,
 );
